@@ -34,7 +34,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEBUG", cast=bool)
 
 # ALLOWED_HOSTS = ["127.0.0.1", "localhost", "backendsenauthenticator.onrender.com", "backprojecto.onrender.com", "senauthenticator.onrender.com"]
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "backendsenauthenticator.onrender.com", "backprojecto.onrender.com", "SenAuthenticator.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "backendsenauthenticator.onrender.com", "backprojecto.onrender.com", "senauthenticator-6nrt.onrender.com"]
 
 
 
