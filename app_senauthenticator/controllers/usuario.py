@@ -281,7 +281,7 @@ def inicio_sesion(request):
         # refresh_token = str(refresh)
 
         serializer = UsuarioSerializer(instance=user)
-        response = Response({'user': serializer.data}, status=status.HTTP_200_OK)
+        response = Response({'user': serializer.data, 'token':access_token}, status=status.HTTP_200_OK)
 
         # Guardar los tokens en las cookies
         response.set_cookie(
